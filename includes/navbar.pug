@@ -1,0 +1,94 @@
+
+nav(class="nav navbar navbar-fixed-top navbar-toggleable-md navbar-light bg-faded" style="background: linear-gradient(rgba(0,0,0,1), rgba(1,1,1,0))")
+  button(class="navbar-toggler navbar-toggler-right" type="" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+    img(class="border-0" src="assets/imagenes/dropdownazul.png" style="height:30px;" )
+  a(class="navbar-brand text-danger" href="index.html") 
+    img(class="icon" src="assets/imagenes/eukariota_text.png")
+  div(class="collapse navbar-collapse" id="navbarSupportedContent")
+    ul.navbar-nav.mr-auto
+      li.text-white.change-vp.nav-item.dropdown
+        a(style="padding: 10px;" class="nav-link sombra dropdown-toggle text-white" id="dropdownMistica" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#") Nuestra Mistica 
+        div(class="dropdown-menu" aria-labelledby="dropdownMistica")
+          a(class="dropdown-item" href="nuestra_mistica.html#historia") Historia
+          a(class="dropdown-item" href="nuestra_mistica.html#nosotros") Nosotros
+          a(class="dropdown-item" href="nuestra_mistica.html#mision") Misión
+          a(class="dropdown-item" href="nuestra_mistica.html#vision") Visión
+      li.text-white.change-ac.nav-item.dropdown
+        a(style="padding: 10px;" class="nav-link sombra dropdown-toggle text-white" id="dropdownServicios" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#") Servicios/Productos 
+        div(class="dropdown-menu" aria-labelledby="dropdownServicios")
+          a(class="dropdown-item" href="servicios.html") Comunicacion y Marketing Responsable
+          a(class="dropdown-item" href="#") Consultoria y Gestion de Responsabilidad Social 
+          a(class="dropdown-item" href="#") Manejo de Medios
+      li.text-white.change-am.nav-item
+        a(style="padding: 10px;" class="nav-link sombra text-white" href="#") Portfolio/Experiencias 
+      li.text-white.change-ac.nav-item
+        a(style="padding: 10px;" class="nav-link sombra text-white" href="#") Noticias  
+      li.text-white.change-vp.nav-item
+        a(style="padding: 10px;" class="nav-link sombra text-white" href="http://www.ResponsabilidadSocialIntegral.com") Blog 
+      li.text-white.change-vpc.nav-item
+        a(style="padding: 10px;" class="nav-link sombra text-white" href="#" data-toggle="modal" data-target="#donacionesModal") Donaciones 
+      li.text-white.change-ac.nav-item
+        a(style="padding: 10px;" class="nav-link sombra text-white" href="equipo.html") Equipo 
+      li.text-white.change-am.nav-item
+        a(data-toggle="modal" data-target="#contactoModal" style="padding: 10px;" class="nav-link sombra text-white" href="") Contacto 
+
+//-CONTACTO - Efecto modal -//
+div(class="modal fade" id="contactoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+  div(class="modal-dialog" role="document")
+    div(class="modal-content")
+      div(class="modal-header")
+        h5(class="modal-title" id="exampleModalLabel") Contacto
+        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+          span(aria-hidden="true") &times;
+      div(class="modal-body text-center")
+        div(class="card" style="border-style: none; width: 100%;")
+          img(class="card-img-top" style="width: 100%;" src="assets/imagenes/euka_color_ajustee.png" alt="Card image cap")
+          div.card-body
+            p .
+          div.card-body
+            a(href="Eukariota/TARJETAS-EUKARIOTA.pdf" class="card-link") Card link
+              
+
+//-DONACIONES - Efecto modal -//
+div(class="modal fade" id="donacionesModal" tabindex="-1" role="dialog" aria-labelledby="donacionesModalLabel" aria-hidden="true")
+  div(class="modal-dialog" role="document")
+    div.modal-content
+      div.modal-header
+        h5(class="modal-title" id="donacionesModalLabel")
+        button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+          span(aria-hidden="true") &times
+      div.modal-body
+        form
+          div.row
+            div.col
+              p(style="font-weight: bold;") - Personal Data
+              input(style="margin-top: 5px" type="text" class="form-control" placeholder="First name")
+              input(style="margin-top: 5px" type="text" class="form-control" placeholder="Second name")
+              input(style="margin-top: 5px" type="text" class="form-control" placeholder="Last Name")
+            div.col
+              p(style="font-weight: bold;") - How much (dollars)?
+              div.form-check
+                input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked)
+                label(class="form-check-label" for="exampleRadios1")
+                  p $ 1
+              div.form-check
+                input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2")
+                label(class="form-check-label" for="exampleRadios2")
+                  p $ 1K
+              div.form-check
+                input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3")
+                label(class="form-check-label" for="exampleRadios3")
+                  p $ 1T
+              div.form-check
+                input(class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3")
+                label(class="form-check-label" for="exampleRadios3")
+                  p $ 1P
+          div.row
+            div.col
+              input(style="margin-top: 5px" type="text" class="form-control" placeholder="E-mail")
+              input(style="margin-top: 5px" type="text" class="form-control" placeholder="Cellphone Number")
+              div.form-group
+                label(style="font-weight: bold;" for="exampleFormControlTextarea1") ¿Algún Comentario?
+                textarea(class="form-control" id="exampleFormControlTextarea1" rows="3")
+      div(class="modal-footer justify-content-center")
+        button(type="button" class="btn btn-primary") Donar!

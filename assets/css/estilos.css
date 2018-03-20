@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/*
+COLORES
+VERDE OSCURO        40,161,116
+VERDE OSCURO OPACO  108,169,158
+AZUL MARINO         73.135,172
+AZUL CLARO:         80,200,234
+VERDE PASTO:        78,174,74
+VERDE PASTO CLARO:  116,193,87
+*/
+ul {
+  list-style: none; }
+
+.imagen-fondo-1 {
+  background-image: url("../imagenes/bridge.jpg");
+  background-size: cover; }
+
+.imagen-fondo-2 {
+  background-image: url("../imagenes/leaves.jpg");
+  background-size: cover; }
+
+.imagen-fondo-3 {
+  background-image: url("../imagenes/cultura.jpg");
+  background-size: cover; }
+
+h5 {
+  font-style: italic; }
+
+.sombra {
+  font-weight: normal;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.9); }
+
+.middle {
+  display: table-cell;
+  vertical-align: middle; }
+
+.cartel {
+  font-size: 50px;
+  margin-top: 50px; }
+
+.icon {
+  height: 50px;
+  width: auto; }
+
+.move-right {
+  padding: 10px; }
+
+button {
+  outline: none; }
+
+footer {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(black), to(black));
+  background: -webkit-linear-gradient(transparent, black, black);
+  background: -o-linear-gradient(transparent, black, black);
+  background: linear-gradient(transparent, black, black); }
+
+.change-vo:hover {
+  background-color: #28a174; }
+
+.change-voo:hover {
+  background-color: #6ca99e; }
+
+.change-am:hover {
+  background-color: #4987ac; }
+
+.change-ac:hover {
+  background-color: #50c8ea; }
+
+.change-vpc:hover {
+  background-color: #74c157; }
+
+.change-vp:hover {
+  background-color: #4eae4a; }
+
+.vo {
+  background-color: #28a174; }
+
+.voo {
+  background-color: #6ca99e; }
+
+.am {
+  background-color: #4987ac; }
+
+.ac {
+  background-color: #50c8ea; }
+
+.vpc {
+  background-color: #74c157; }
+
+.vp {
+  background-color: #4eae4a; }
+
+.no {
+  background-color: #873c23; }
+
+h2 {
+  font-weight: bolder;
+  font-style: italic; }
+
+video {
+  overflow: true;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed; }
+
+.center {
+  top: 50%;
+  left: 50%; }
+
+​
+.seccion {
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.parallax-1 {
+  background-image: url("../imagenes/red-clouds.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax-2 {
+  background-image: url("../imagenes/luke.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .parallax-2 h2 {
+    font-style: italic;
+    font-size: 80px; }
+
+.parallax-3 {
+  height: 100%;
+  background-image: url("../imagenes/island.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .parallax-3 h2 {
+    font-style: italic;
+    font-size: 80px; }
+
+.parallax-4 {
+  height: 100%;
+  background-image: url("../imagenes/anemona.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .parallax-4 h2 {
+    font-style: italic;
+    font-size: 80px; }
+
+.parallax-5 {
+  height: 100%;
+  background-image: url("../imagenes/rascacielos.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .parallax-5 h2 {
+    font-style: italic;
+    font-size: 80px; }
+
+.parallax-icono {
+  background-image: url("../imagenes/eukariota-vertical.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px; }
